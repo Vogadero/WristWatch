@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>最新资讯</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="vendor/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/latestNews.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <style>
+@media (max-width: 768px) {
+    .pc {
+        display: none;
+    }
+
+    .detail-overall {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:1200px) {
+    .description-video img {
+        margin-right: 5px;
+    }
+
+    .description-current-price span:nth-child(2) {
+        right: 25px;
+    }
+}
+
+@media (max-width:991px) {
+    nav {
+        border-bottom: 0;
+    }
+
+    .detail {
+        border-top: none;
+        padding-top: 0;
+    }
+}
+
+
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+    <!-- 顶部 -->
+    <div class="container">
+        <header class="pc">
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+            </div>
+
+            <div class="language">
+                <div class="language-content">
+                    <a href="javascript:;">中文</a>
+                    <span> | </span>
+                    <a href="javascript:;">EN</a>
+                </div>
+            </div>
+        </header>
+        <nav class="pc clearfix">
+            <div class="nav-left col-md-6 clearfix">
+                <ul class="list-inline text-center clearfix">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="index.html">产品系列</a></li>
+                    <li><a href="#">设计团队</a></li>
+                    <li><a href="#">联系方式</a></li>
+                    <li><a href="#" class="active">最新资讯</a></li>
+                </ul>
+            </div>
+            <div class="nav-right col-md-3 col-md-offset-3">
+                <input type="search" placeholder="What are you looking for?">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </div>
+        </nav>
+        <!-- 超小屏幕顶部 -->
+        <div class="row visible-xs-block">
+            <div class="navbar menubar" id="menu">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle menu-button" data-toggle="collapse"
+                            data-target="#myNavbar">
+                            <span class="glyphicon glyphicon-align-justify"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="index.html"><img src="image/logo.png" alt="logo.png"></a>
+                    </div>
+                    <div>
+                        <nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
+                            <ul class="nav navbar-nav navbar-right navstyle">
+                                <li><a href="javascript:;" class="page-scroll">首页</a></li>
+                                <li><a href="index.html" class="page-scroll">产品系列</a></li>
+                                <li><a href="javascript:;" class="page-scroll">设计团队</a></li>
+                                <li><a href="javascript:;" class="page-scroll">联系方式</a></li>
+                                <li><a href="javascript:;" class="page-scroll active">最新资讯</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-right">
+                <input type="search" placeholder="What are you looking for?">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </div>
+        </div>
+    </div>
+    <!-- 正文和电梯导航 -->
+    <div class="container">
+        <div class="row">
+            <!-- 电梯导航 -->
+            <div class="col-md-2 hidden-xs" id="myScrollspy">
+                <ul class="nav nav-tabs nav-stacked" id="myNav">
+                    <li class="list-group-item list-group-item-success h4">最新资讯</li>
+                    <li><a href="#section-1"><span class="glyphicon glyphicon-chevron-right"
+                                aria-hidden="true"></span>只有这样的TA</a></li>
+                    <li><a href="#section-2"><span class="glyphicon glyphicon-chevron-right"
+                                aria-hidden="true"></span>第二部分</a></li>
+                    <li><a href="#section-3"><span class="glyphicon glyphicon-chevron-right"
+                                aria-hidden="true"></span>第三部分</a></li>
+                    <li><a href="#section-4"><span class="glyphicon glyphicon-chevron-right"
+                                aria-hidden="true"></span>第四部分</a></li>
+                    <li><a href="#section-5"><span class="glyphicon glyphicon-chevron-right"
+                                aria-hidden="true"></span>第五部分</a></li>
+                </ul>
+            </div>
+            <!-- 正文 -->
+            <div class="col-md-9 col-xs-12 body-text">
+                <section>
+                    <div id="section-1" class="h2 jumbotron text-center"><strong>只有这样的TA，才能算得上是伴侣</strong>
+                        <div class="h6 text-right">2020-05-05</div>
+                    </div>
+                    <p>我是一个喜欢冥想的人，望着窗外淅沥沥的雨酒，思绪又开始了不听话地蔓延。时光每天每夜都在匆匆流逝，孩儿渐长，我多么希望时光可以停留的慢一点，让自己可以一直保留最佳的优雅与灵动。跟瑜伽结缘是在6年多以前，那时的我年轻而浮躁，每天虽然都精力满满地工作，但是却时不时地感觉到发白心底的疲劳。
+                    </p>
+                    <img src="image/img3.png" alt="img3.png">
+                    <p>小区里那时正好有在开设瑜伽班，希望改变心理疲劳状态的我，决定抱着试一试的心态参与了进去。经过一段略显漫长的适应时间后，我发现瑜伽对于自己而言已经不像是一种运动形式，更像是一种生活方式。在练习时全情投入，而后全身心慢得到完全的释放，体内的毒素彻底地持出。只有在瑜伽之中，我的心态能够趋于宁静，在这份宁静中回归自我，回归本心。
+                    </p>
+                    <img src="image/img3.png" alt="img3.png">
+                    <p>在我心里，一直都有个追求；只要时光不止，步履不停。其实一切的旅行，从来没有想过为了去证明什么，只是相去见识，去找回内在那个更完整的自己，然后让自己成长、更热爱生活。两年前的春节，我选择和先生继续上路，去了英国度假。有一日自己一个人闲逛在伦敦的街头，无意间路过一家腕表铺子，相留里摆设的腕表忽然抓住了我的目光。当时我站在榴窗前看了久，定定的木了一样。早面的店员见状，便把我迎进店内聊了起来。她叫做Betty与我年纪仿佛相当，身上简单地穿着一身纯白的轻纱长裙，却有一种溢于言表的优雅之美。
+                    </p>
+                    <div class="text-right text-attribute"><span>本文来源： </span><span>作者： </span><span>责任编辑： </span></div>
+                </section>
+                <hr>
+                <section>
+                    <div id="section-2" class="h2 jumbotron text-center">第二部分
+                        <div class="h6 text-right">2020-05-05</div>
+                    </div>
+                    <p>Nullam hendrerit justo non leo aliquet imperdiet. Etiam in sagittis lectus. Suspendisse ultrices
+                        placerat accumsan. Mauris quis dapibus orci. In dapibus velit blandit pharetra tincidunt.
+                        Quisque
+                        non sapien nec lacus condimentum facilisis ut iaculis enim. Sed viverra interdum bibendum. Donec
+                        ac
+                        sollicitudin dolor. Sed fringilla vitae lacus at rutrum. Phasellus congue vestibulum ligula sed
+                        consequat.</p>
+                    <p>Vestibulum consectetur scelerisque lacus, ac fermentum lorem convallis sed. Nam odio tortor,
+                        dictum
+                        quis malesuada at, pellentesque vitae orci. Vivamus elementum, felis eu auctor lobortis, diam
+                        velit
+                        egestas lacus, quis fermentum metus ante quis urna. Sed at facilisis libero. Cum sociis natoque
+                        penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum bibendum blandit
+                        dolor. Nunc orci dolor, molestie nec nibh in, hendrerit tincidunt ante. Vivamus sem augue,
+                        hendrerit
+                        non sapien in, mollis ornare augue.</p>
+                </section>
+                <hr>
+                <section>
+                    <div id="section-3" class="h2 jumbotron text-center">第三部分
+                        <div class="h6 text-right">2020-05-05</div>
+                    </div>
+                    <p>Integer pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien vel,
+                        porttitor bibendum enim. Donec sed nibh vitae lorem porttitor blandit in nec ante. Pellentesque
+                        vitae metus ipsum. Phasellus sed nunc ac sem malesuada condimentum. Etiam in aliquam lectus. Nam
+                        vel
+                        sapien diam. Donec pharetra id arcu eget blandit. Proin imperdiet mattis augue in porttitor.
+                        Quisque
+                        tempus enim id lobortis feugiat. Suspendisse tincidunt risus quis dolor fringilla blandit. Ut
+                        sed
+                        sapien at purus lacinia porttitor. Nullam iaculis, felis a pretium ornare, dolor nisl semper
+                        tortor,
+                        vel sagittis lacus est consequat eros. Sed id pretium nisl. Curabitur dolor nisl, laoreet vitae
+                        aliquam id, tincidunt sit amet mauris.</p>
+                    <p>Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id
+                        tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel
+                        tellus
+                        ac, tincidunt fringilla massa. Etiam hendrerit dolor eget ante rutrum adipiscing. Cras interdum
+                        ipsum mattis, tempus mauris vel, semper ipsum. Duis sed dolor ut enim lobortis pellentesque
+                        ultricies ac ligula. Pellentesque convallis elit nisi, id vulputate ipsum ullamcorper ut. Cras
+                        ac
+                        pulvinar purus, ac viverra est. Suspendisse potenti. Integer pellentesque neque et elementum
+                        tempus.
+                        Curabitur bibendum in ligula ut rhoncus.</p>
+                    <p>Quisque pharetra velit id velit iaculis pretium. Nullam a justo sed ligula porta semper eu quis
+                        enim.
+                        Pellentesque pellentesque, metus at facilisis hendrerit, lectus velit facilisis leo, quis
+                        volutpat
+                        turpis arcu quis enim. Nulla viverra lorem elementum interdum ultricies. Suspendisse accumsan
+                        quam
+                        nec ante mollis tempus. Morbi vel accumsan diam, eget convallis tellus. Suspendisse potenti.</p>
+                </section>
+                <hr>
+                <section>
+                    <div id="section-4" class="h2 jumbotron text-center">第四部分
+                        <div class="h6 text-right">2020-05-05</div>
+                    </div>
+                    <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus.
+                        Phasellus vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec
+                        vehicula
+                        elit egestas a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis
+                        sapien ut leo fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque
+                        pulvinar ultrices nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus.
+                        Phasellus sodales libero nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante
+                        ipsum
+                        primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis
+                        varius
+                        libero.</p>
+                    <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt.
+                        Ut
+                        tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam
+                        sit
+                        amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo
+                        iaculis
+                        justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam
+                        tortor,
+                        commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui
+                        molestie
+                        euismod. Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>
+                    <p>Phasellus fermentum, neque sit amet sodales tempor, enim ante interdum eros, eget luctus ipsum
+                        eros
+                        ut ligula. Nunc ornare erat quis faucibus molestie. Proin malesuada consequat commodo. Mauris
+                        iaculis, eros ut dapibus luctus, massa enim elementum purus, sit amet tristique purus purus nec
+                        felis. Morbi vestibulum sapien eget porta pulvinar. Nam at quam diam. Proin rhoncus, felis
+                        elementum
+                        accumsan dictum, felis nisi vestibulum tellus, et ultrices risus felis in orci. Quisque
+                        vestibulum
+                        sem nisl, vel congue leo dictum nec. Cras eget est at velit sagittis ullamcorper vel et lectus.
+                        In
+                        hac habitasse platea dictumst. Etiam interdum iaculis velit, vel sollicitudin lorem feugiat sit
+                        amet. Etiam luctus, quam sed sodales aliquam, lorem libero hendrerit urna, faucibus rhoncus
+                        massa
+                        nibh at felis. Curabitur ac tempus nulla, ut semper erat. Vivamus porta ullamcorper sem, ornare
+                        egestas mauris facilisis id.</p>
+                    <p>Ut ut risus nisl. Fusce porttitor eros at magna luctus, non congue nulla eleifend. Aenean
+                        porttitor
+                        feugiat dolor sit amet facilisis. Pellentesque venenatis magna et risus commodo, a commodo
+                        turpis
+                        gravida. Nam mollis massa dapibus urna aliquet, quis iaculis elit sodales. Sed eget ornare orci,
+                        eu
+                        malesuada justo. Nunc lacus augue, dictum quis dui id, lacinia congue quam. Nulla sem sem,
+                        aliquam
+                        nec dolor ac, tempus convallis nunc. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus.
+                        Nulla suscipit convallis iaculis. Quisque eget commodo ligula. Praesent leo dui, facilisis quis
+                        eleifend in, aliquet vitae nunc. Suspendisse fermentum odio ac massa ultricies pellentesque.
+                        Fusce
+                        eu suscipit massa.</p>
+                </section>
+                <hr>
+                <section>
+                    <div id="section-5" class="h2 jumbotron text-center">第五部分
+                        <div class="h6 text-right">2020-05-05</div>
+                    </div>
+                    <p>Nam eget purus nec est consectetur vehicula. Nullam ultrices nisl risus, in viverra libero
+                        egestas
+                        sit amet. Etiam porttitor dolor non eros pulvinar malesuada. Vestibulum sit amet est mollis
+                        nulla
+                        tempus aliquet. Praesent luctus hendrerit arcu non laoreet. Morbi consequat placerat magna, ac
+                        ornare odio sagittis sed. Donec vitae ullamcorper purus. Vivamus non metus ac justo porta
+                        volutpat.
+                    </p>
+                    <p>Vivamus mattis accumsan erat, vel convallis risus pretium nec. Integer nunc nulla, viverra ut sem
+                        non, scelerisque vehicula arcu. Fusce bibendum convallis augue sit amet lobortis. Cras porta
+                        urna
+                        turpis, sodales lobortis purus adipiscing id. Maecenas ullamcorper, turpis suscipit pellentesque
+                        fringilla, massa lacus pulvinar mi, nec dignissim velit arcu eget purus. Nam at dapibus tellus,
+                        eget
+                        euismod nisl. Ut eget venenatis sapien. Vivamus vulputate varius mauris, vel varius nisl
+                        facilisis
+                        ac. Nulla aliquet justo a nibh ornare, eu congue neque rutrum.</p>
+                    <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus.
+                        Phasellus vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec
+                        vehicula
+                        elit egestas a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis
+                        sapien ut leo fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque
+                        pulvinar ultrices nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus.
+                        Phasellus sodales libero nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante
+                        ipsum
+                        primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis
+                        varius
+                        libero.</p>
+                    <p>Morbi sed fermentum ipsum. Morbi a orci vulputate tortor ornare blandit a quis orci. Donec
+                        aliquam
+                        sodales gravida. In ut ullamcorper nisi, ac pretium velit. Vestibulum vitae lectus volutpat,
+                        consequat lorem sit amet, pulvinar tellus. In tincidunt vel leo eget pulvinar. Curabitur a eros
+                        non
+                        lacus malesuada aliquam. Praesent et tempus odio. Integer a quam nunc. In hac habitasse platea
+                        dictumst. Aliquam porta nibh nulla, et mattis turpis placerat eget. Pellentesque dui diam,
+                        pellentesque vel gravida id, accumsan eu magna. Sed a semper arcu, ut dignissim leo.</p>
+                    <p>Sed vitae lobortis diam, id molestie magna. Aliquam consequat ipsum quis est dictum ultrices.
+                        Aenean
+                        nibh velit, fringilla in diam id, blandit hendrerit lacus. Donec vehicula rutrum tellus eget
+                        fermentum. Pellentesque ac erat et arcu ornare tincidunt. Aliquam erat volutpat. Vivamus
+                        lobortis
+                        urna quis gravida semper. In condimentum, est a faucibus luctus, mi dolor cursus mi, id vehicula
+                        arcu risus a nibh. Pellentesque blandit sapien lacus, vel vehicula nunc feugiat sit amet.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="container">
+        <!-- 底部导航 -->
+        <div class="service" id="service-tag">
+            <ul class="nav nav-pills nav-justified">
+                <li class="service-item">
+                    <a href="javascript:;">
+                        <span class="item-pic-fb"></span>
+                        <span class="item-descri">门店分布</span>
+                    </a>
+                </li>
+                <li class="service-item">
+                    <a href="javascript:;">
+                        <span class="item-pic-sh"></span>
+                        <span class="item-descri">售后服务</span>
+                    </a>
+                </li>
+                <li class="service-item">
+                    <a href="index.html">
+                        <span class="item-pic-bt"></span>
+                        <span class="item-descri">返回首页</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 底部友情链接 -->
+        <nav class="footer" id="footer-tag">
+            <div class="footer-content clearfix">
+                <ul class="col-md-3 col-sm-3 hidden-xs">
+                    <li class="title">关于我们</li>
+                    <li><a href="#">公司介绍</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+                <ul class="col-md-3 col-sm-3 hidden-xs">
+                    <li class="title">客户服务</li>
+                    <li><a href="#">售后服务</a></li>
+                    <li><a href="#">常见问题</a></li>
+                </ul>
+                <ul class="col-md-3 col-sm-3 hidden-xs">
+                    <li class="title">友情链接</li>
+                    <li><a href="#">德国柏倍德集体</a></li>
+                    <li><a href="#">齐博林</a></li>
+                    <li><a href="#">朗坤</a></li>
+                    <li><a href="#">荣克士</a></li>
+                    <li><a href="#">拉夫兰瑞</a></li>
+                </ul>
+                <ul class="col-md-3 col-sm-3 hidden-xs">
+                    <div class="row">
+                        <li class="col-md-5 col-sm-6">
+                            <img src="image/微信@2.png" alt="微信">
+                            <div class="text-center">微信</div>
+                        </li>
+                        <li class="col-md-5 col-md-offset-2 col-sm-6">
+                            <img src="image/支付宝@2.jpg" alt="支付宝">
+                            <div class="text-center">支付宝</div>
+                        </li>
+                    </div>
+                </ul>
+                <ul class="hidden-lg hidden-md hidden-sm">
+                    <div class="row">
+                        <li class="col-xs-offset-2 col-xs-3">
+                            <img src="image/微信@2.png" alt="微信">
+                            <div class="text-center">微信</div>
+                        </li>
+                        <li class="col-xs-3 col-xs-offset-2">
+                            <img src="image/支付宝@2.jpg" alt="支付宝">
+                            <div class="text-center">支付宝</div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <!-- 超小屏幕底部友情链接 -->
+        <div class="folding-link visible-xs-block" id="folding-link-tag">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne" class="head-link">
+                                关于我们<span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">公司介绍</a>
+                            <a href="#" class="list-group-item">联系我们</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                                aria-expanded="true" aria-controls="collapseTwo" class="head-link">
+                                客户服务<span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">售后服务</a>
+                            <a href="#" class="list-group-item">常见问题</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                                aria-expanded="true" aria-controls="collapseThree" class="head-link">
+                                友情链接<span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                        aria-labelledby="headingThree">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">德国柏倍德集体</a>
+                            <a href="#" class="list-group-item">齐博林</a>
+                            <a href="#" class="list-group-item">朗坤</a>
+                            <a href="#" class="list-group-item">荣克士</a>
+                            <a href="#" class="list-group-item">拉夫兰瑞</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部版权 -->
+        <footer id="copyright-tag">
+            <ul class="hidden-xs">
+                <li title="支付业务许可证"><span class="icon icon-zfywxk">支付业务许可证</span></li>
+                <li title="PCI认证"><span class="icon icon-pcirz">PCI认证</span></li>
+                <li title="VISA 验证"><span class="icon icon-visayz">VISA 验证</span></li>
+                <li title="VerSign加密服务"><span class="icon icon-vsjmfw">VerSign加密服务</span></li>
+                <li title="网络工商"><span class="icon icon-wlgs">网络工商</span></li>
+                <li title="电子商务协会认证诚信网"><span class="icon icon-rzcx">电子商务协会认证诚信网</span></li>
+                <li title="北京工商"><span class="icon icon-gs">北京工商</span></li>
+            </ul>
+            <p>@2020-2022 VICTORIA•HYDE</p>
+        </footer>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="vendor/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".head-link").on("click", function () {
+                if ($(this).children("span").hasClass("glyphicon-plus")) {
+                    $(this).children("span").removeClass("glyphicon-plus").addClass("glyphicon-minus")
+                        .stop().fadeToggle(1000);
+                } else {
+                    $(this).children("span").removeClass("glyphicon-minus").addClass("glyphicon-plus")
+                        .stop().fadeToggle(1000);
+                }
+            });
+            $("#myNav").affix({
+                offset: {
+                    top: $('#myNav').offset().top, // 左侧电梯栏顶部距离
+                    bottom: $("#service-tag").outerHeight(true) + $("#footer-tag").outerHeight(true) +
+                        $("#folding-link-tag").outerHeight(true) + $("#copyright-tag").outerHeight(
+                            true) + 10 // 左侧电梯栏底部距离
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
